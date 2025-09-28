@@ -1582,12 +1582,12 @@ body {
 
 .top-subtitle .h2{
     color: #000;
-    font-size:20px;
+    font-size:15px;
     font-weight:500;
 }
 .top-subtitle .strong{
     color: #F35525;
-    font-size:20px;
+    font-size:15px;
     font-weight:700;
 }
 
@@ -1728,6 +1728,13 @@ Footer Style
 
 
 
+/*
+---------------------------------------------
+whatsapp button Style
+---------------------------------------------
+*/
+
+
 
          /* Floating Button */
                 .whatsapp-btn {
@@ -1802,3 +1809,78 @@ Footer Style
 
 
 
+
+
+
+
+/*
+---------------------------------------------
+Manufacture Page Style
+---------------------------------------------
+*/
+
+
+/* Category Heading */
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Product Range Title */
+.range-title {
+  color: #ee626b;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+/* Scroll Container */
+.scroll-container {
+  position: relative;
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;              /* enable horizontal scroll */
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory; /* snap effect */
+  scroll-behavior: smooth;       /* smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* iOS momentum scroll */
+}
+
+/* Hide default scrollbar (optional) */
+.product-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Product Card */
+.product-card {
+  flex: 0 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  scroll-snap-align: start;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive for larger devices */
+@media (min-width: 768px) {
+  .product-card {
+    width: 180px;
+    height: 180px;
+  }
+}
