@@ -855,11 +855,13 @@ Video Style
 */
 
 .video {
-  background-image: url(../images/video-bg.jpg);
+  background: #F35525;
+  background: linear-gradient(90deg, rgba(243, 85, 37, 1) 0%, rgba(153, 63, 63, 1) 52%, rgba(252, 176, 69, 1) 100%);
+  /*background-image: url(../images/video-bg.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 100px 0px 250px 0px;
+  padding: 100px 0px 100px 0px;
   position: relative;
 }
 
@@ -1884,3 +1886,4 @@ Manufacture Page Style
     height: 180px;
   }
 }
+
