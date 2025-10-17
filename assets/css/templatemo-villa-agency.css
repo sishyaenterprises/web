@@ -1270,7 +1270,13 @@ Contact Page Style
   padding: 35px 30px;
   background-color: #fff;
   display: inline-block;
-  min-width: 360px;
+  min-width: 500px;
+  cursor: pointer;
+}
+
+.contact-page .item:hover {
+    background: #ffe8d1;
+    transform: translateY(-3px);
 }
 
 .contact-page .phone {
@@ -1886,4 +1892,3 @@ Manufacture Page Style
     height: 180px;
   }
 }
-
