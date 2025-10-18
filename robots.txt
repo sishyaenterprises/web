@@ -1,3 +1,15 @@
 User-agent: *
 Allow: /
 Sitemap: https://sishyaenterprises.in/sitemap.xml
+
+# Optional but helpful:
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow internal or non-public directories (if any)
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /test/
