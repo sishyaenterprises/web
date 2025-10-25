@@ -8,6 +8,7 @@ Allow: /
 
 User-agent: Bingbot
 Allow: /
+Allow: /favicon.ico
 
 # Disallow internal or non-public directories (if any)
 Disallow: /admin/
